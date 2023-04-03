@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "price": 20,
+    "type": "Basic",
+    "features": ["A","B","C"]
+  },
+  {
+    "id": 2,
+    "name": "Product B",
+    "price": 50,
+    "type": "Premium",
+    "features": ["A","B","C"]
+  },
+  {
+    "id": 3,
+    "name": "Product C",
+    "price": 100,
+    "type": "Corporate",
+    "features": ["A","B","C"]
+  }
+]

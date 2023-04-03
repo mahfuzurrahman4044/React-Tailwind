@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import './App.css'
+import Navbar from './component/Navbar/Navbar';
+import PriceList from './component/PriceList/PriceList';
+import Dashboard from './component/Dashboard/Dashboard';
+import PhoneBar from './component/PhoneBar/PhoneBar';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Navbar></Navbar>
+      <h4 className='text-6xl text-sky-600 font-semibold text-center'>Welcone to Tailwind</h4>
+      <PriceList></PriceList>
+      <Dashboard></Dashboard>
+      <PhoneBar></PhoneBar>
     </div>
   );
 }
